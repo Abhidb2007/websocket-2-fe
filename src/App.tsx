@@ -1,16 +1,18 @@
-
-import "./App.css";
+import './App.css';
 
 function App() {
   return (
-    <div className="h-screen big-red">
-      <div className="h-[95vh]"></div>
+    <div className="h-screen bg-black">
+      <div className="h-[70vh]"></div>
       <div className="">
-        <input type="text"></input>
+        <input
+          type="text"
+          className="p-2 border border-gray-200 rounded-md text-black"
+          placeholder="Enter text..."
+        />
       </div>
-
     </div>
-  )
+  );
 }
 
-export default App  
+export default App;
