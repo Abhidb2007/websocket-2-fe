@@ -5,11 +5,8 @@ function App() {
     <div className="h-screen bg-black">
       <div className="h-[70vh]"></div>
       <div className="">
-        <input
-          type="text"
-          className="p-2 border border-gray-200 rounded-md text-black"
-          placeholder="Enter text..."
-        />
+        <input type="text w-full p-4"></input>
+        <button className="bg-blue-500 text-black">Send</button>
       </div>
     </div>
   );
